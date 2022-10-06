@@ -63,3 +63,15 @@ class CarX{
 }
 let c4=new CarX("bmw")
 c4.getBrand();
+let data:string[]=[];
+data.push("fdgfg")
+
+interface usersTyped{
+  name:string,
+  age:number
+}
+
+let users:usersTyped={
+  name:"fgfg",
+  age:34
+}

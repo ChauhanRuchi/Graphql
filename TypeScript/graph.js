@@ -41,8 +41,8 @@ server.use(
                         events:[Event!]!                    
                           }
                 type RootMutation{
-                     createEvent(eventInput:EventInput):Event
-                     createUser(userInput:UserInput):User
+                      createEvent(eventInput:EventInput):Event
+                      createUser(userInput:UserInput):User
                       updateUser(_id:ID!,email:String!):User!
                       deleteUser(_id:ID!):User!
                 }
@@ -119,3 +119,5 @@ server.listen("3000", (err, res) => {
     console.log("...", err);
   }
 });
+
+

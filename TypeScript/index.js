@@ -37,3 +37,6 @@ var CarX = /** @class */ (function () {
 }());
 var c4 = new CarX("bmw");
 c4.getBrand();
+
+
+
